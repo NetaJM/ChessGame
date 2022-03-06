@@ -1,0 +1,64 @@
+body {
+  background-image: url("img/3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+table {
+  width: 600px;
+  height: 600px;
+  margin-top: 170px;
+  border: 25px solid rgb(17, 13, 13);
+  border-radius: 5px;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.white {
+  background-color: rgb(236, 245, 245 0.5);
+}
+
+.selected {
+  outline: 5px solid rgb(15, 15, 15);
+}
+
+.mark {
+  background-color: rgba(194, 9, 36, 0.7);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-board td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 525;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(15, 15, 15, 0.8);
+  color: rgba(216, 202, 204, 0.8);
+  border-radius: 8px;
+  padding: 14px 24px 16px;
+  margin-top: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 200ms, background 200ms;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
